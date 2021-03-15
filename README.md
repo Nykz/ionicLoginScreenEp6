@@ -1,7 +1,7 @@
 # ionicLoginScreenEp6
 Beer Bar App | Coffee Cafe App - Auth Screens
 
-Steps to Setup this beautiful login screen in your system
+###Steps to Setup this beautiful login screen in your system
 
 1.Download the zipped project
 
