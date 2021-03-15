@@ -1,8 +1,5 @@
 # ionicLoginScreenEp6
 Beer Bar App | Coffee Cafe App - Auth Screens
-<html>
-  <img src="https://drive.google.com/file/d/1zTjyNQ5rRVZz3Rcmldk3sdyfs08VNNGK/view?usp=sharing" width="100" />
-</html>
 
 Steps to Setup this beautiful login screen in your system
 
@@ -17,3 +14,7 @@ Steps to Setup this beautiful login screen in your system
 5.Run ionic serve
 
 That's it
+
+Beer mug image<div>Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+Coffee cup image <div>Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
