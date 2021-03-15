@@ -1,0 +1,97 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/welcome" color="dark"></ion-back-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button routerLink="/welcome/signin" fill="clear" strong="true" color="dark">Login</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+  <ion-item lines="none">
+    <ion-label color="dark">
+      <span class="title">Sign Up</span>
+      <p class="ion-text-wrap ion-text-justify">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </ion-label>
+  </ion-item>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="primary">
+
+  <ion-list lines="none">
+    <ion-item-group class="ion-padding">
+      <form [formGroup]="form">
+        <ion-item-group class="username">
+          <ion-item color="light">
+            <ion-input 
+              class="ion-margin-horizontal"
+              formControlName="name"
+              type="text"
+              placeholder="Name">
+            </ion-input>
+          </ion-item>
+          <ion-text class="error" color="danger" *ngIf="!form.get('name').valid && form.get('name').touched">
+            Please enter your Name
+          </ion-text>
+        </ion-item-group>
+
+        <ion-item-group class="formUser">
+          <ion-item color="light">
+            <ion-input 
+              class="ion-margin-horizontal"
+              formControlName="username"
+              type="text"
+              placeholder="Username">
+            </ion-input>
+          </ion-item>
+          <ion-text class="error" color="danger" *ngIf="!form.get('username').valid && form.get('username').touched">
+            Please enter your Username
+          </ion-text>
+        </ion-item-group>
+
+        <ion-item-group class="ion-margin-bottom">
+          <ion-item color="light">
+            <ion-input 
+              class="ion-margin-horizontal"
+              formControlName="password"
+              type="password"
+              placeholder="Password">
+            </ion-input>
+          </ion-item>
+          <ion-text *ngIf="!form.get('password').valid && form.get('password').touched">
+            <ion-text class="error" color="danger"
+              *ngIf="form.get('password').hasError('required')">
+                Please enter the Password
+            </ion-text>
+            <ion-text class="error" color="danger"
+              *ngIf="form.get('password').hasError('minlength') 
+                && !form.get('password').hasError('required')">
+                Password must be of atleast 8 characters
+            </ion-text>
+          </ion-text>
+        </ion-item-group>
+
+        <ion-button size="large" expand="block" shape="round" color="dark"
+          (click)="onSubmit()">
+          <!--  [disabled]="!form?.valid" -->
+          <ion-text>Sign Up</ion-text>
+        </ion-button>
+      </form>
+    </ion-item-group>
+
+    <ion-item-group class="ion-padding group">
+      <ion-item class="username">
+        <ion-icon slot="start" name="logo-google" color="danger"></ion-icon>
+        <ion-label>Continue with Google</ion-label>
+        <ion-icon slot="end" name="arrow-forward-outline"></ion-icon>
+      </ion-item>
+      <ion-item class="ion-margin-vertical">
+        <ion-icon slot="start" name="logo-facebook" color="tertiary"></ion-icon>
+        <ion-label>Continue with Facebook</ion-label>
+        <ion-icon slot="end" name="arrow-forward-outline"></ion-icon>
+      </ion-item>
+    </ion-item-group>
+  </ion-list>
+
+</ion-content>
