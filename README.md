@@ -1,6 +1,11 @@
 # ionicLoginScreenEp6
 Beer Bar App | Coffee Cafe App - Auth Screens
 
+<img src="https://github.com/Nykz/ionicLoginScreenEp6/blob/main/screen1.png" width="200" height="400" />
+<img src="https://github.com/Nykz/ionicLoginScreenEp6/blob/main/screen2.png" width="200" height="400" />
+<img src="https://github.com/Nykz/ionicLoginScreenEp6/blob/main/signin.png" width="200" height="400" />
+<img src="https://github.com/Nykz/ionicLoginScreenEp6/blob/main/signup.png" width="200" height="400" />
+
 ### Steps to Setup this beautiful login screen in your system
 
 1.Download the zipped project
