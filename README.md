@@ -1,6 +1,8 @@
 # ionicLoginScreenEp6
 Beer Bar App | Coffee Cafe App - Auth Screens
 
+Watch the Full Episode on YouTube at https://www.youtube.com/watch?v=-XSqml3fF34&list=PLixvNT19uDK6Fk6glTj18ONQRpCAVnY0G&index=4&ab_channel=CodingTechnyks
+
 <img src="https://github.com/Nykz/ionicLoginScreenEp6/blob/main/screen1.png" width="200" height="400" />
 <img src="https://github.com/Nykz/ionicLoginScreenEp6/blob/main/screen2.png" width="200" height="400" />
 <img src="https://github.com/Nykz/ionicLoginScreenEp6/blob/main/signin.png" width="200" height="400" />
